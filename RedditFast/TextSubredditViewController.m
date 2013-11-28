@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Jeremy Smith. All rights reserved.
 //
 
-#import "BirdsSecondViewController.h"
+#import "TextSubredditViewController.h"
 
-@interface BirdsSecondViewController ()
+@interface TextSubredditViewController ()
 
 @end
 
-@implementation BirdsSecondViewController
+@implementation TextSubredditViewController
 
 - (void)viewDidLoad
 {

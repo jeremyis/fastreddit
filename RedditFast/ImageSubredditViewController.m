@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Jeremy Smith. All rights reserved.
 //
 
-#import "BirdsFirstViewController.h"
+#import "ImageSubredditViewController.h"
 
-@interface BirdsFirstViewController ()
+@interface ImageSubredditViewController ()
 
 @end
 
-@implementation BirdsFirstViewController
+@implementation ImageSubredditViewController
 
 - (void)viewDidLoad
 {

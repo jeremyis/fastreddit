@@ -1,5 +1,5 @@
 //
-//  BirdsFirstViewController.h
+//  BirdsSecondViewController.h
 //  RedditFast
 //
 //  Created by Jeremy Smith on 11/27/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BirdsFirstViewController : UIViewController
+@interface TextSubredditViewController : UIViewController
 
 @end

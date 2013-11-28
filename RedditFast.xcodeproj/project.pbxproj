@@ -14,8 +14,8 @@
 		AD4140991846ADD700869EAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4140981846ADD700869EAB /* main.m */; };
 		AD41409D1846ADD700869EAB /* BirdsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD41409C1846ADD700869EAB /* BirdsAppDelegate.m */; };
 		AD4140A01846ADD700869EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD41409E1846ADD700869EAB /* Main.storyboard */; };
-		AD4140A31846ADD700869EAB /* BirdsFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4140A21846ADD700869EAB /* BirdsFirstViewController.m */; };
-		AD4140A61846ADD700869EAB /* BirdsSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4140A51846ADD700869EAB /* BirdsSecondViewController.m */; };
+		AD4140A31846ADD700869EAB /* ImageSubredditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4140A21846ADD700869EAB /* ImageSubredditViewController.m */; };
+		AD4140A61846ADD700869EAB /* TextSubredditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4140A51846ADD700869EAB /* TextSubredditViewController.m */; };
 		AD4140A81846ADD700869EAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4140A71846ADD700869EAB /* Images.xcassets */; };
 		AD4140AF1846ADD700869EAB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4140AE1846ADD700869EAB /* XCTest.framework */; };
 		AD4140B01846ADD700869EAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD41408C1846ADD700869EAB /* Foundation.framework */; };
@@ -46,10 +46,10 @@
 		AD41409B1846ADD700869EAB /* BirdsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BirdsAppDelegate.h; sourceTree = "<group>"; };
 		AD41409C1846ADD700869EAB /* BirdsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdsAppDelegate.m; sourceTree = "<group>"; };
 		AD41409F1846ADD700869EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AD4140A11846ADD700869EAB /* BirdsFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BirdsFirstViewController.h; sourceTree = "<group>"; };
-		AD4140A21846ADD700869EAB /* BirdsFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdsFirstViewController.m; sourceTree = "<group>"; };
-		AD4140A41846ADD700869EAB /* BirdsSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BirdsSecondViewController.h; sourceTree = "<group>"; };
-		AD4140A51846ADD700869EAB /* BirdsSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdsSecondViewController.m; sourceTree = "<group>"; };
+		AD4140A11846ADD700869EAB /* ImageSubredditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageSubredditViewController.h; sourceTree = "<group>"; };
+		AD4140A21846ADD700869EAB /* ImageSubredditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageSubredditViewController.m; sourceTree = "<group>"; };
+		AD4140A41846ADD700869EAB /* TextSubredditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextSubredditViewController.h; sourceTree = "<group>"; };
+		AD4140A51846ADD700869EAB /* TextSubredditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextSubredditViewController.m; sourceTree = "<group>"; };
 		AD4140A71846ADD700869EAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AD4140AD1846ADD700869EAB /* RedditFastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedditFastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4140AE1846ADD700869EAB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,10 +118,10 @@
 				AD41409B1846ADD700869EAB /* BirdsAppDelegate.h */,
 				AD41409C1846ADD700869EAB /* BirdsAppDelegate.m */,
 				AD41409E1846ADD700869EAB /* Main.storyboard */,
-				AD4140A11846ADD700869EAB /* BirdsFirstViewController.h */,
-				AD4140A21846ADD700869EAB /* BirdsFirstViewController.m */,
-				AD4140A41846ADD700869EAB /* BirdsSecondViewController.h */,
-				AD4140A51846ADD700869EAB /* BirdsSecondViewController.m */,
+				AD4140A11846ADD700869EAB /* ImageSubredditViewController.h */,
+				AD4140A21846ADD700869EAB /* ImageSubredditViewController.m */,
+				AD4140A41846ADD700869EAB /* TextSubredditViewController.h */,
+				AD4140A51846ADD700869EAB /* TextSubredditViewController.m */,
 				AD4140A71846ADD700869EAB /* Images.xcassets */,
 				AD4140931846ADD700869EAB /* Supporting Files */,
 			);
@@ -256,9 +256,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD4140991846ADD700869EAB /* main.m in Sources */,
-				AD4140A61846ADD700869EAB /* BirdsSecondViewController.m in Sources */,
+				AD4140A61846ADD700869EAB /* TextSubredditViewController.m in Sources */,
 				AD41409D1846ADD700869EAB /* BirdsAppDelegate.m in Sources */,
-				AD4140A31846ADD700869EAB /* BirdsFirstViewController.m in Sources */,
+				AD4140A31846ADD700869EAB /* ImageSubredditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
